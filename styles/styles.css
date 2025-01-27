@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.gap {
+  margin-top: 20px;
+}
+.container {
+  padding: 0 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 10px;
+}
+.navbar-home {
+  display: flex;
+  gap: 20px;
+}
+.school {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111111;
+  gap: 10px;
+}
+.home {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fea301;
+}
+.about {
+  font-size: 20px;
+  font-weight: 500;
+  color: #01acfd;
+}
+.admi {
+  font-size: 20px;
+  font-weight: 500;
+  color: #5d58ef;
+}
+.contact {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #fea301;
+  color: white;
+  height: 50px;
+  width: 190px;
+  border: none;
+  border-radius: 16px;
+}
+.icon {
+  display: none;
+}
+.empo {
+  font-size: 56px;
+  font-weight: 700;
+}
+.color-empo {
+  color: #fea301;
+}
+.color-towards {
+  color: #01acfd;
+}
+.para {
+  font-size: 20px;
+  font-weight: 400;
+  color: #111111;
+}
+.btn-enroll {
+  height: 50px;
+  width: 190px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #111111;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back-img {
+  background-image: url("../assets/bg.png");
+}
+.stand {
+  text-align: center;
+}
+.card-1 {
+  margin-top: 190px;
+  background-image: linear-gradient(#def5ff, #ffffff);
+  padding: 20px;
+}
+.kinder {
+  font-size: 24px;
+  font-weight: 700;
+}
+.para-cum {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #808080;
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-home {
+    display: none;
+  }
+  .school {
+    display: none;
+  }
+  .btn-contact {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+}
