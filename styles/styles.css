@@ -93,9 +93,9 @@
   text-align: center;
 }
 .card-1 {
-  margin-top: 190px;
   background-image: linear-gradient(#def5ff, #ffffff);
-  padding: 20px;
+  height: 259px;
+  border-radius: 10px;
 }
 .kinder {
   font-size: 24px;
@@ -108,6 +108,120 @@
   color: #808080;
   margin: 30px 0;
 }
+.our {
+  font-size: 46px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin-top: 60px;
+}
+.section-main {
+  background-image: url("../assets/bg.png");
+  background-image: linear-gradient(#ffffff, #fea301);
+  padding: 36px;
+}
+.kids {
+  margin-top: 80px;
+  background-color: white;
+  border-radius: 10px;
+}
+.fun {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 60px;
+}
+.para-beautiful {
+  font-size: 15px;
+  font-weight: 500;
+  color: #666666;
+  margin-top: 45px;
+  line-height: 30px;
+}
+.div-fst-sec {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.div-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 33px;
+}
+
+.find {
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000;
+}
+.footer {
+  background-color: #01acfd;
+}
+.div-logo {
+  display: flex;
+}
+
+.border {
+  border-radius: 10px;
+}
+.kidsedu {
+  display: flex;
+}
+.about-school {
+  text-align: center;
+}
+.about-middle {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 124px;
+}
+.div-left {
+  margin-top: 124px;
+}
+.ulist {
+  list-style: none;
+  text-align: left;
+  margin-top: 20px;
+}
+.ulist li {
+  margin-top: 10px;
+}
+.list {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.btn-view {
+  background-color: #111111;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  width: 190px;
+  text-align: center;
+  border-radius: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 520px;
+}
+.kid {
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.para-pizza {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 35px;
+}
+/* .div-middle {
+  text-align: center;
+} */
 
 @media screen and (max-width: 576px) {
   .navbar-home {
