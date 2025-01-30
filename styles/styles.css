@@ -97,7 +97,7 @@
   justify-content: space-around;
   margin-top: 100px;
 }
-.card-1 {
+.card {
   background-image: linear-gradient(#def5ff, #ffffff);
   padding: 20px;
   justify-items: center;
@@ -161,6 +161,8 @@
 }
 .kid {
   color: white;
+  font-size: 42px;
+  font-weight: 700;
 
   margin-top: 80px;
 }
@@ -271,7 +273,7 @@
   margin-top: 124px;
 }
 .div-left {
-  margin-top: 124px;
+  margin-top: 122px;
 }
 .ulist {
   list-style: none;
@@ -316,6 +318,8 @@
 .text-color {
   color: white;
   margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 700;
 }
 .text-center {
   text-align: center;
@@ -343,5 +347,21 @@
   }
   .card-div {
     flex-direction: column;
+  }
+  .bg-footer {
+    display: block;
+  }
+
+  .kids {
+    display: none;
+  }
+  .kidsedu {
+    display: block;
+  }
+  .card-1 {
+    width: 200px;
+  }
+  .card-1 img {
+    width: 200px;
   }
 }
